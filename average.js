@@ -1,6 +1,6 @@
-const num1 = +prompt('enter number', '');
-const num2 = +prompt('enter second number', '');
-const num3 = +prompt('last number please', '');
+const num1 = +prompt('enter number', '0');
+const num2 = +prompt('enter second number', '0');
+const num3 = +prompt('last number please', '0');
 
 if (!num1 || !num2 || !num3) {
     alert('error');
